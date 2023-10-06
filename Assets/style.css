@@ -1,0 +1,36 @@
+:root {
+    --color1: #ffe8d1;
+    --color2: #568EA3;
+    --color3: #826251;
+    --color4: #68C3D4;
+    --color5: #9F9895;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+}
+
+#c1 {
+    color: var(--color1);
+}
+#c2{
+    color: var(--color2);
+}
+#c3{
+    color: var(--color3);
+}
+#c4{
+    color: var(--color4);
+}
+#c5{
+    color: var(--color5);
+}
+
+p{
+    font-size: 40px;
+}
