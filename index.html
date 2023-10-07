@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian Cheung - Portfolio</title>
-    <link rel="stylesheet" href="./Assets/Stylesheet/reset.css">
+    <link rel="stylesheet" href="./">
     <link rel="stylesheet" href="./Assets/Stylesheet/style.css">
 </head>
 
@@ -17,7 +17,7 @@
         <img id="profile-pic" src="./Assets/images/half-my-face.jpg" alt="My face.">
         
         <nav class="nav-bar">
-            <ul>
+            <ul class="nav-bar-items">
                 <li class="site-jump"><a href="#about-me">About Me</a></li>
                 <li class="site-jump"><a href="#projects">Projects</a></li>
                 <li class="site-jump"><a href="#contact-me">Contact Me</a></li>
@@ -68,28 +68,30 @@
         </section>
         
         <section id="contact-me" class="contact-me-content">
-            <form action="mailto:briancheungchakyin@gmail.com" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <form action="mailto:briancheungchakyin@gmail.com" method="POST" class="contact-me-form">
+                <label for="name" class="form-lable">Name:</label>
+                <input type="text" id="name" name="name" required class="form-input">
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="email" class="form-lable">Email:</label>
+                <input type="email" id="email" name="email" required class="form-input">
 
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" required>
+                <label for="subject" class="form-lable">Subject:</label>
+                <input type="text" id="subject" name="subject" required class="form-input">
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <label for="message" class="form-lable">Message:</label>
+                <textarea id="message" name="message" required class="textbox"></textarea>
 
-                <button type="submit">Send Message</button>
+                <button type="submit" class="form-submit">Send Message</button>
               </form>
         </section>
     
     </main>
 
     <footer>
-        <h4>Thank you for visiting!</h4>
+
+        <h4 class="end-msg">Thank you for visiting!</h4>
         <a href="./Assets/images/chaos.webp" target="_blank"><button class="secret">You found the secret!</button></a>
+    
     </footer>
 
 </body>
