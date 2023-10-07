@@ -4,14 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brian Cheung - Portfolio</title>
-    
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./Assets/Stylesheet/reset.css">
+    <link rel="stylesheet" href="./Assets/Stylesheet/style.css">
 </head>
+
 <body>
-    <p id="c1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, maxime.</p>
-    <p id="c2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, inventore.</p>
-    <p id="c3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quis!</p>
-    <p id="c4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, voluptatibus.</p>
-    <p id="c5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, suscipit!</p>
+
+    <header>
+
+        <h1 class="website-heading">BEHOLD! Brian Cheung's Portfolio</h1>
+        
+        <img id="profile-pic" src="./Assets/images/half-my-face.jpg" alt="My face.">
+        
+        <nav class="nav-bar">
+            <ul>
+                <li class="site-jump"><a href="#about-me">About Me</a></li>
+                <li class="site-jump"><a href="#projects">Projects</a></li>
+                <li class="site-jump"><a href="#contact-me">Contact Me</a></li>
+                <li class="site-jump"><a href="https://github.com/CYCBrian" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <main>
+        
+        <section id="about-me" class="about-me-content">
+            <h2 class="section-header">About Me</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere nisi similique aut quod cumque placeat cupiditate voluptates quis natus distinctio.</p>
+        </section>
+        
+        <section id="projects" class="project-content">
+            <h2 class="section-header">Projects</h2>
+            <section class="feature-project-card">
+                <h3 class="feature-project-title">Horiseon Landing Page</h3>
+                <img class="feature-project-image" src="./Assets/images/Horiseon Landing Page.jpg" alt="Horiseon Landing Page preview">
+                <a href="https://cycbrian.github.io/Brian-Cheung-Module-1-Weekly-Challenge-Horiseon-Landing-Page/" target="_blank"><button class="feature-project-jump">View Site</button></a>
+            </section>
+
+            <section class="card">
+                <h3 class="project-title">Prework Study Guide</h3>
+                <img class="project-image" src="./Assets/images/Prework Study Guide.jpg" alt="Prework Study Guide preview">
+                <a href="https://cycbrian.github.io/Prework-Study-Guide/" target="_blank"><button class="project-jump">View Site</button></a>
+            </section>
+
+            <section class="card">
+                <h3 class="project-title">Coming Soon</h3>
+                <img class="project-image" src="./Assets/images/Coming Soon.jpg" alt="Robot and worker at a construction site">
+                <a href="https://m.media-amazon.com/images/M/MV5BZjIyYzVkZDItOWQ3Mi00NGMxLTkxNzgtMjU0YjFiNDNlY2M0XkEyXkFqcGdeQXVyMzgzOTI1NTA@._V1_.jpg" target="_blank"><button class="project-jump">View Site</button></a>
+            </section>
+
+            <section class="card">
+                <h3 class="project-title">Coming Soon</h3>
+                <img class="project-image" src="./Assets/images/Coming Soon.jpg" alt="Robot and worker at a construction site">
+                <a href="https://m.media-amazon.com/images/M/MV5BZjIyYzVkZDItOWQ3Mi00NGMxLTkxNzgtMjU0YjFiNDNlY2M0XkEyXkFqcGdeQXVyMzgzOTI1NTA@._V1_.jpg" target="_blank"><button class="project-jump">View Site</button></a>
+            </section>
+
+            <section class="card">
+                <h3 class="project-title">Coming Soon</h3>
+                <img class="project-image" src="./Assets/images/Coming Soon.jpg" alt="Robot and worker at a construction site">
+                <a href="https://m.media-amazon.com/images/M/MV5BZjIyYzVkZDItOWQ3Mi00NGMxLTkxNzgtMjU0YjFiNDNlY2M0XkEyXkFqcGdeQXVyMzgzOTI1NTA@._V1_.jpg" target="_blank"><button class="project-jump">View Site</button></a>
+            </section>
+        </section>
+        
+        <section id="contact-me" class="contact-me-content">
+            <form action="mailto:briancheungchakyin@gmail.com" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+              </form>
+        </section>
+    
+    </main>
+
+    <footer>
+        <h4>Thank you for visiting!</h4>
+        <a href="./Assets/images/chaos.webp" target="_blank"><button class="secret">You found the secret!</button></a>
+    </footer>
+
 </body>
 </html>
