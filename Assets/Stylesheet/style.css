@@ -5,28 +5,86 @@
     --color4: #68C3D4;
     --color5: #9F9895;
     --color6: #357D63;
+    --color7: #000000;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    color: black;
-    background-color: #fff;
+    box-sizing: border-box;
+    color: var(--color1);
 }
 
-body
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--color2);
+}
+
+.website-heading{
+    background-color: var(--color2);
+    display: flex;
+    align-items: flex-end;
+}
+
+#profile-pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    border-style:double;
+    border-color: #619eb4;
+}
+
+nav{
+    display: flex;
+    align-items: end;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.site-jump{
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 10px;
+}
 
 
 
-header
-.website-heading
-#profile-pic
-.nav-bar
-.nav-bar-items{}
-.site-jump
-
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color2);
+  }
+.end-msg{
+    font-size: 150%;
+    margin: 10px;
+}
+.secret{
+    color: var(--color2);
+    background-color: var(--color2);
+    text-decoration: none;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.secret:hover{
+    color:var(--color1);
+    border-style: outset;
+    border-color: var(--color2);
+    border-radius: 5px;
+}
 
 
 main
@@ -61,7 +119,3 @@ main
 .form-submit
 
 
-
-footer
-.end-msg
-.secret
