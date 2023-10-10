@@ -11,10 +11,9 @@
 <body>
 
     <header>
+        <img id="profile-pic" src="./Assets/images/half-my-face.jpg" alt="My face.">
 
         <h1 class="website-heading">BEHOLD! Brian Cheung's Portfolio</h1>
-        
-        <img id="profile-pic" src="./Assets/images/half-my-face.jpg" alt="My face.">
         
         <nav>
             <ul>
@@ -31,7 +30,7 @@
         
         <section id="about-me" class="about-me-content">
             <h2 class="section-header">About Me</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere nisi similique aut quod cumque placeat cupiditate voluptates quis natus distinctio.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, iusto esse! Alias, dolorem repellendus quos ad eaque libero commodi assumenda nisi nam magnam quod corporis ratione, et deleniti vero nesciunt facilis voluptatum labore hic quidem! Assumenda, at neque porro repellat modi sint, quasi commodi excepturi a quia, quis aut eaque.</p>
         </section>
         
         <section id="projects" class="project-content">
@@ -68,20 +67,21 @@
         </section>
         
         <section id="contact-me" class="contact-me-content">
+            <h2 class="section-header">Contact Me</h2>
             <form action="mailto:briancheungchakyin@gmail.com" method="POST" class="contact-me-form">
-                <label for="name" class="form-lable">Name:</label>
-                <input type="text" id="name" name="name" required class="form-input">
+                <section class="contact-detail">
+                    <label for="name" class="form-lable">Name:</label>
+                    <input type="text" id="name" name="name" required class="form-input">
 
-                <label for="email" class="form-lable">Email:</label>
-                <input type="email" id="email" name="email" required class="form-input">
+                    <label for="email" class="form-lable">Email:</label>
+                    <input type="email" id="email" name="email" required class="form-input">
+                </section>
 
-                <label for="subject" class="form-lable">Subject:</label>
-                <input type="text" id="subject" name="subject" required class="form-input">
-
-                <label for="message" class="form-lable">Message:</label>
-                <textarea id="message" name="message" required class="textbox"></textarea>
-
-                <button type="submit" class="form-submit">Send Message</button>
+                <section class="message">
+                    <label for="message" class="form-lable">Message:</label>
+                    <textarea id="message" name="message" required class="textbox"></textarea>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </section>
               </form>
         </section>
     
