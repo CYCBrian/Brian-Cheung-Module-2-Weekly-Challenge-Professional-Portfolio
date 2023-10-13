@@ -7,7 +7,7 @@
     --color6: #ff00dd;
     --color7: #ffffff;
     --color8: #ffa500;
-    --color9: #7700ff9c;
+    --color9: #00000070;
     --color10: #ffffff00;
 }
 
@@ -166,9 +166,10 @@ header nav ul{
 
 .project-title{
     position: absolute;
-    top: 10px;
-    left: 10px;
-    margin: 10px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
     background-color: var(--color8);
 }
 
