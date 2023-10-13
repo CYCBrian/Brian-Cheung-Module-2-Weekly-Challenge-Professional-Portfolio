@@ -190,6 +190,7 @@ header nav ul{
 
 .contact-info{
     margin: 0px 10px;
+    list-style: none;
 }
 
 
@@ -208,6 +209,11 @@ footer{
     margin: 10px;
 }
 
+
+.end-msg{
+    text-align: center;
+}
+
 .secret{
     color: var(--color3);
     background-color: var(--color3);
@@ -216,12 +222,76 @@ footer{
     padding: 5px;
 }
 
-.end-msg{
-    text-align: center;
-}
-
 .secret:hover{
     color:var(--color1);
     border: 1px outset var(--color3);
     border-radius: 5px;
 }
+
+
+
+/*962*/
+
+
+@media (max-width: 866px){
+    ul{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 852px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .website-heading{
+        margin: auto;
+    }
+    .major-section{
+        flex-direction: column;
+
+    }
+    .section-header{
+        border-bottom: 5px solid var(--color4);
+        border-right: 0;
+    }
+    .contacts{
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        margin: 30px;
+        padding-left: 0;
+    }   
+}
+
+@media (max-width: 540px){
+    ul{
+        padding: 0px;
+    }
+    .major-section{
+        margin: 50px 30px 50px 30px;
+    }
+    .project-title{
+        padding: 10px;
+    }
+    .contacts{
+        align-items: center;
+        margin: 5px;
+    } 
+}
+
+@media (max-width: 360px){
+    .website-heading{
+        text-align: center;
+    }
+}
+
+
+/*
+@media (max-width: 343px){
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+*/
