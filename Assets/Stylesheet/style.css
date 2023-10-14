@@ -1,3 +1,4 @@
+/*Custom Variables*/
 :root {
     --color1: #000000;
     --color2: #eeff00;
@@ -15,7 +16,7 @@
 
 
 
-
+/* Universal Styles */
 * {
     box-sizing: border-box;
     color: var(--color1);
@@ -26,7 +27,7 @@
 
 
 
-
+/* Styles for the body elements */
 body{
     margin: 0;
     display: flex;
@@ -36,6 +37,12 @@ body{
     background-color: var(--color1);
 }
 
+
+
+
+
+
+/*Styles for the header and the contents within.*/
 header{
     display: flex;
     flex-direction: row;
@@ -73,11 +80,17 @@ header nav ul{
     margin: 10px;
 }
 
+.navbar ul li:hover{
+    background-color: var(--color2);
+    border-radius: 20px;
+}
 
 
 
 
 
+
+/*Styles for the "About Me" Section and the contents within.*/
 .major-section{
     display: flex;
     flex-direction: row;
@@ -105,49 +118,59 @@ header nav ul{
 
 
 
-
+/*Styles for the "Projects" section and the contents within.*/
 .projects-content{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.featured-project{
+    display: flex;
+    
+    
+    width: 100%;
+    justify-content: space-evenly;
+
 }
 
 .featured-card{
-    display: flex;
-    flex-direction: column;
     position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--color2);
-    padding: 10px;
     padding-top: 0;
     margin: 30px;
+    width: 720px;
+    height: 720px;
     overflow: hidden;
-    flex: 0,0,2;
+    justify-content: space-evenly;
+}
+
+.other-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .card{
-    display: flex;
-    flex-direction: column;
     position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--color2);
-    padding: 10px;
     padding-top: 0;
     margin: 30px;
-    height: 400px;
-    width: 400px;
+    height: 360px;
+    width: 360px;
     overflow: hidden;
-    flex: 0,0,1;
 }
 
 .project-image{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 5px solid var(--color1);
+    border: 10px solid var(--color8);
 }
 
 .overlay{
@@ -178,6 +201,7 @@ header nav ul{
 
 
 
+/*Styles for the "Contact Me" section and the contents within*/
 .contacts{
     display: flex;
     flex-direction: row;
@@ -186,17 +210,31 @@ header nav ul{
     background-color: #eeff00;
     width: 100%;
     margin: 30px;
+    padding: 0;
 }
 
-.contact-info{
+.button {
     margin: 0px 10px;
-    list-style: none;
-}
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color5);
+    color: var(--color1);
+    text-decoration: none;
+    border-radius: 30px;
+  }
+
+  .button:hover{
+    background-color: var(--color3);
+  }
 
 
 
 
 
+
+
+
+/*Styles for the footer section and the contents within.*/
 footer{
     display: flex;
     flex-direction: column;
@@ -208,7 +246,6 @@ footer{
     font-size: 150%;
     margin: 10px;
 }
-
 
 .end-msg{
     text-align: center;
@@ -230,10 +267,26 @@ footer{
 
 
 
-/*962*/
 
 
-@media (max-width: 866px){
+
+/*Media Queries for different devices. Dimensions are mostly presets from chrome devtool, but a few are custom.*/
+
+@media (max-width: 1157px){
+    .major-section{
+        flex-direction: column;
+    }
+    .section-header{
+        border-bottom: 5px solid var(--color4);
+        border-right: 0;
+    }
+    .contacts{
+        margin-left: 0px;
+    }
+    
+}
+
+@media (max-width: 869px){
     ul{
         padding: 0px;
     }
@@ -247,37 +300,20 @@ footer{
     .website-heading{
         margin: auto;
     }
+    
     .major-section{
-        flex-direction: column;
-
-    }
-    .section-header{
-        border-bottom: 5px solid var(--color4);
-        border-right: 0;
-    }
+        margin: 50px 30px 50px 30px;
+    } 
+    
     .contacts{
         flex-direction: column;
         width: auto;
         align-items: center;
-        margin: 30px;
-        padding-left: 0;
+        margin: 0;
     }   
-}
-
-@media (max-width: 540px){
-    ul{
-        padding: 0px;
+    .button{
+        margin:5px
     }
-    .major-section{
-        margin: 50px 30px 50px 30px;
-    }
-    .project-title{
-        padding: 10px;
-    }
-    .contacts{
-        align-items: center;
-        margin: 5px;
-    } 
 }
 
 @media (max-width: 360px){
@@ -285,13 +321,3 @@ footer{
         text-align: center;
     }
 }
-
-
-/*
-@media (max-width: 343px){
-    ul{
-        display: flex;
-        flex-direction: column;
-    }
-}
-*/
