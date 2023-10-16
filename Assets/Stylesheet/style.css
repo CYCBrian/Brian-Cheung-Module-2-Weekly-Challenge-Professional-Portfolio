@@ -212,7 +212,6 @@ header nav ul{
 .button {
     display: inline-block;
     margin: 0px 10px;
-<<<<<<< Updated upstream
     padding: 10px 20px;
     border-radius: 30px;
     background-color: var(--header-and-footer-color);
@@ -224,12 +223,6 @@ header nav ul{
   .button:hover{
     background-color: var(--hover-color);
   }
-=======
-    list-style: none;
-}
-
-
->>>>>>> Stashed changes
 
 
 
@@ -247,45 +240,29 @@ footer{
     margin: 10px;
 }
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 .end-msg{
     text-align: center;
 }
 
 .secret{
-<<<<<<< Updated upstream
     margin-bottom: 15px;
     padding: 5px;
     text-decoration: none;
     color: var(--header-and-footer-color);
     transition: background-color 0.3s ease;
 
-=======
-    color: var(--color3);
-    background-color: var(--color3);
-    text-decoration: none;
-    margin-bottom: 15px;
-    padding: 5px;
->>>>>>> Stashed changes
 }
 
 .secret:hover{
     border: 1px outset var(--hover-color);
     border-radius: 5px;
-<<<<<<< Updated upstream
     color:var(--text-color);
     background-color: var(--hover-color);
 
-=======
->>>>>>> Stashed changes
 }
 
 
 
-<<<<<<< Updated upstream
 /*Media Queries*/
 @media (max-width: 1176px){
     .major-section{
@@ -303,23 +280,10 @@ footer{
 }
 
 @media (max-width: 907px){
-=======
-/*962*/
-
-
-@media (max-width: 866px){
-    ul{
-        padding: 0px;
-    }
-}
-
-@media (max-width: 852px){
->>>>>>> Stashed changes
     header{
         flex-direction: column;
         align-items: center;
     }
-<<<<<<< Updated upstream
 
     .website-heading{
         margin: auto;
@@ -333,24 +297,10 @@ footer{
         margin: 50px 30px;
     } 
 
-=======
-    .website-heading{
-        margin: auto;
-    }
-    .major-section{
-        flex-direction: column;
-
-    }
-    .section-header{
-        border-bottom: 5px solid var(--color4);
-        border-right: 0;
-    }
->>>>>>> Stashed changes
     .contacts{
         flex-direction: column;
         width: auto;
         align-items: center;
-<<<<<<< Updated upstream
         margin: 0;
         padding: 20px;
     }  
@@ -361,44 +311,7 @@ footer{
 }
 
 @media (max-width: 366px){
-=======
-        margin: 30px;
-        padding-left: 0;
-    }   
-}
-
-@media (max-width: 540px){
-    ul{
-        padding: 0px;
-    }
-    .major-section{
-        margin: 50px 30px 50px 30px;
-    }
-    .project-title{
-        padding: 10px;
-    }
-    .contacts{
-        align-items: center;
-        margin: 5px;
-    } 
-}
-
-@media (max-width: 360px){
->>>>>>> Stashed changes
     .website-heading{
         text-align: center;
     }
 }
-<<<<<<< Updated upstream
-=======
-
-
-/*
-@media (max-width: 343px){
-    ul{
-        display: flex;
-        flex-direction: column;
-    }
-}
-*/
->>>>>>> Stashed changes
