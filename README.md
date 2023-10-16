@@ -36,7 +36,7 @@ No dependencies and requirements.
 - Clicking on any of the button in the "About Me" section will either open you preferred email client to compose a message, or navigate to the corresponding third party websites in a new tab.
 
 ## Test
-Conducted Lighthouse test to assess performance, accessibility, best practices, and SEO. Scored 100 on all categories. See results here >>> [Lighthouse Test Results](Assets/Lightouse-Test/Lighthouse-Test.html)
+Conducted Lighthouse test to assess performance, accessibility, best practices, and SEO. Download link to test results here >>> [Lighthouse Test Results](Assets/Lightouse-Test/Lighthouse-Test.html)
 
 ## Issues
 - .card placmenet is a little wonky when resizing the actual browser. No such issue occurs when viewed using responsive dimensions function via device toolbar. Therefore, exact width cannot be determined and issue cannot be remedied with media queries. With that said, the website functions normally with no issues when viewed on present dimensions set up by the inspect tool or with responsive dimensions.
