@@ -10,6 +10,7 @@
 - [Screenshots](#screenshots)
 - [Issues](#Issues)
 - [Links](#Links)
+- [Credits](#Credits)
 
 ## Description
 This project is a portfolio website showcasing my skills and work samples, designed to make it easier for potential employers to evaluate my capabilities. It allows emlpoyers to view my past projects, learn more about me, and easily contact me. NOTE: To ensure my privacy, I did not actually include my email or links to my socials in the "Contact Me" section. Clicking on those buttons will only 1. open you preferred email client, 2. the corresponding social media site.
@@ -35,7 +36,7 @@ No dependencies and requirements.
 - Clicking on any of the button in the "About Me" section will either open you preferred email client to compose a message, or navigate to the corresponding third party websites in a new tab.
 
 ## Test
-Conducted lighthouse test to assess performance, accessibility, best practices, and SEO. Scored 100 on all categories.
+Conducted Lighthouse test to assess performance, accessibility, best practices, and SEO. Scored 100 on all categories.
 
 ## Issues
 - .card placmenet is a little wonky when resizing the actual browser. No such issue occurs when viewed using responsive dimensions function via device toolbar. Therefore, exact width cannot be determined and issue cannot be remedied with media queries. With that said, the website functions normally with no issues when viewed on present dimensions set up by the inspect tool or with responsive dimensions.
@@ -47,3 +48,4 @@ Conducted lighthouse test to assess performance, accessibility, best practices, 
 
 ## Credits
 Xpert Learning Assistant
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
