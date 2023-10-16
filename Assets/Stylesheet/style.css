@@ -9,6 +9,7 @@
     --card-color: #93b7be;
     --overlay-color: #93b7be6b;
     --overlay-hover-color: #ffffff00;
+    --image-overlay-text-color:#ffffff00;
 }
 
 
@@ -159,6 +160,17 @@ header nav ul{
     overflow: hidden;
 }
 
+.project-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: var(--card-color);
+}
+
 .project-image{
     width: 100%;
     height: 100%;
@@ -175,21 +187,11 @@ header nav ul{
     z-index: 1;
     background-color: var(--overlay-color);
     transition: background-color 0.3s ease;
+    color: var(--image-overlay-text-color);
 }
 
 .overlay:hover{
     background-color:var(--overlay-hover-color);
-}
-
-.project-title{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding: 20px;
-    z-index: 2;
-    border-radius: 10px;
-    background-color: var(--card-color);
 }
 
 
