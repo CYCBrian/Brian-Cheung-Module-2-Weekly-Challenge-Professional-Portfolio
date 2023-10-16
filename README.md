@@ -49,7 +49,7 @@ Conducted Lighthouse test to assess performance, accessibility, best practices, 
 ## Credits
 Xpert Learning Assistant
 
-[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
+[CSS Tricks - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
 
 [MDN - display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 
