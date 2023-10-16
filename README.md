@@ -14,7 +14,7 @@
 
 ## Description
 - This project is a portfolio website showcasing my skills and work samples, designed to make it easier for potential employers to evaluate my capabilities. It allows employers to view my past projects, learn more about me, and easily contact me.
-- NOTE: To ensure my privacy, I did not actually include my email or links to my socials in the "Contact Me" section. Clicking on those buttons will only 1) open you preferred email client, 2) the corresponding social media site. Additionally, there was no requirement for me to write something about me in the "About Me" section. Since I wanted to direct my focus on creating the website, I went ahead and filled that space with lorem instead.
+- NOTE: To ensure my privacy, I did not actually include my email or links to my socials in the "Contact Me" section. Clicking on those buttons will only 1) open you preferred email client, 2) the corresponding social media site. Additionally, there was no requirement for me to write something about me in the "About Me" section. Since I wanted to direct my focus on creating the website, I went ahead and filled that space with lorem instead. Also please don't judge me on my color palette I don't have a arts or deisgn degree.
 
 ## Features
 - Navigation tabs that scroll to their corresponding sections.
@@ -35,6 +35,7 @@
 - Clicking on any of the navigation tabs will let you jump to the corresponding section of the website.
 - Clicking on any images of deployed applications will redirect you to the application in a new tab.
 - Clicking on any of the button in the "About Me" section will either open you preferred email client to compose a message, or navigate to the corresponding third party websites in a new tab.
+- There is a secret link hidden somewhere on the website.
 
 ## Test
 - Conducted Lighthouse test to assess performance, accessibility, best practices, and SEO. 
