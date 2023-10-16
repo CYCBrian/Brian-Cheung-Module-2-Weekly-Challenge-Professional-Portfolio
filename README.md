@@ -14,7 +14,7 @@ Simply click on the provided URL in the "Links" section to access the refactored
 No dependencies and requirements.
 
 ## Screenshots
-![Screenshots of My Site](Assets/Screenshots/Site-Preview-1.jpg) 
+![Screenshots of My Site](Assets/Screenshots/Website-Preview-1.jpg) 
 ![Screenshots of My Site](Assets/Screenshots/Website-Preview-2.jpg)
 
 ## Usage
