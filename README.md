@@ -13,7 +13,8 @@
 - [Credits](#Credits)
 
 ## Description
-This project is a portfolio website showcasing my skills and work samples, designed to make it easier for potential employers to evaluate my capabilities. It allows employers to view my past projects, learn more about me, and easily contact me. NOTE: To ensure my privacy, I did not actually include my email or links to my socials in the "Contact Me" section. Clicking on those buttons will only 1. open you preferred email client, 2. the corresponding social media site.
+This project is a portfolio website showcasing my skills and work samples, designed to make it easier for potential employers to evaluate my capabilities. It allows employers to view my past projects, learn more about me, and easily contact me. 
+NOTE: To ensure my privacy, I did not actually include my email or links to my socials in the "Contact Me" section. Clicking on those buttons will only 1. open you preferred email client, 2. the corresponding social media site. Additionally, there was no requirement for me to actually write something about me in the "About Me" section. Since I wanted to direct my focus on actually creating the website, I went ahead and filled that space with lorem instead.
 
 ## Features
 - Navigation tabs that scroll to their corresponding sections.
