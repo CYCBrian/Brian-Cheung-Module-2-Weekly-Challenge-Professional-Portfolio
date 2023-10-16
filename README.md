@@ -48,4 +48,23 @@ Conducted Lighthouse test to assess performance, accessibility, best practices, 
 
 ## Credits
 Xpert Learning Assistant
+
 [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
+
+[MDN - display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+
+[MDN - Using media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+
+[MDN - Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+
+[MDN - Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+
+[MDN - CSS flexible box layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+
+[W3 Schools - CSS The object-fit Property](https://www.w3schools.com/css/css3_object-fit.asp)
+
+[Coolors - Color Pallete Generator](https://coolors.co/)
+
+[Medium - Designing with Curves: Why Rounded Edges are Becoming a Must in Web Design](https://bootcamp.uxdesign.cc/designing-with-curves-why-rounded-edges-are-becoming-a-must-in-web-design-937e69d24ca4)
+
+[Medium - 7 UI UX Design Mistakes You Should Avoid In 2023](https://medium.com/@uidesign0005/7-common-design-mistakes-b07dea46a4c4)
