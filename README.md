@@ -1,3 +1,17 @@
+Issues:
+.card placmenet has issues while resizing the actual browser. However no such issue occurs when viewed using responsive dimensions via device toolbar. Therefore, exact width cannot be determined and issue cannot be currently remedied with media queries. With that said, the website functions normally with no issues when viewed on present dimensions set up by the inspect tool or with responsive dimensions.
+
+
+
+
+
+
+
+
+
+
+
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
