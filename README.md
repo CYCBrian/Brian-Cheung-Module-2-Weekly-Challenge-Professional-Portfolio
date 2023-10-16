@@ -13,9 +13,8 @@
 - [Credits](#Credits)
 
 ## Description
-This project is a portfolio website showcasing my skills and work samples, designed to make it easier for potential employers to evaluate my capabilities. It allows employers to view my past projects, learn more about me, and easily contact me.
-
-NOTE: To ensure my privacy, I did not actually include my email or links to my socials in the "Contact Me" section. Clicking on those buttons will only 1. open you preferred email client, 2. the corresponding social media site. Additionally, there was no requirement for me to actually write something about me in the "About Me" section. Since I wanted to direct my focus on actually creating the website, I went ahead and filled that space with lorem instead.
+- This project is a portfolio website showcasing my skills and work samples, designed to make it easier for potential employers to evaluate my capabilities. It allows employers to view my past projects, learn more about me, and easily contact me.
+- NOTE: To ensure my privacy, I did not actually include my email or links to my socials in the "Contact Me" section. Clicking on those buttons will only 1) open you preferred email client, 2) the corresponding social media site. Additionally, there was no requirement for me to write something about me in the "About Me" section. Since I wanted to direct my focus on creating the website, I went ahead and filled that space with lorem instead.
 
 ## Features
 - Navigation tabs that scroll to their corresponding sections.
@@ -24,8 +23,8 @@ NOTE: To ensure my privacy, I did not actually include my email or links to my s
 - Visual feedback when hovering over links and buttons.
 
 ## Deployment
-Simply click on the provided URL in the "Links" section to access the refactored website.
-No dependencies and requirements.
+- Simply click on the provided URL in the "Links" section to access the refactored website.
+- No dependencies and requirements.
 
 ## Screenshots
 ![Screenshot of My Site](Assets/Screenshots/Website-Preview-1.jpg)
@@ -38,7 +37,8 @@ No dependencies and requirements.
 - Clicking on any of the button in the "About Me" section will either open you preferred email client to compose a message, or navigate to the corresponding third party websites in a new tab.
 
 ## Test
-Conducted Lighthouse test to assess performance, accessibility, best practices, and SEO. Download link to test results here >>> [Lighthouse Test Results](Assets/Lightouse-Test/Lighthouse-Test.html)
+- Conducted Lighthouse test to assess performance, accessibility, best practices, and SEO. 
+- Download link to test results here >>> [Lighthouse Test Results](Assets/Lightouse-Test/Lighthouse-Test.html)
 
 ## Issues
 - .card placement is a little wonky when resizing the actual browser. No such issue occurs when viewed using responsive dimensions function via device toolbar. Therefore, exact width cannot be determined and issue cannot be remedied with media queries. With that said, the website functions normally with no issues when viewed on present dimensions set up by the inspect tool or with responsive dimensions.
