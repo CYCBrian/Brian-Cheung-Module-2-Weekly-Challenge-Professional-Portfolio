@@ -1,29 +1,24 @@
 /*Custom Variables*/
 :root {
-    --color1: #000000;
-    --color2: #eeff00;
-    --color3: #ff0000;
-    --color4: #1900ff;
-    --color5: #00ff22;
-    --color6: #ff00dd;
-    --color7: #ffffff;
-    --color8: #ffa500;
-    --color9: #00000070;
-    --color10: #ffffff00;
+    --text-color: #141414;
+    --header-and-footer-color: #a5828e;
+    --hover-color: #8d6875;
+    --header-footer-border-color: #6e4051;
+    --body-background-color: #d6d0cc;
+    --section-border-color: #949494;
+    --card-color: #93b7be;
+    --overlay-color: #93b7be6b;
+    --overlay-hover-color: #ffffff00;
 }
-
-
 
 
 
 /* Universal Styles */
 * {
     box-sizing: border-box;
-    color: var(--color1);
+    color: var(--text-color);
+    font-weight: bolder;
 }
-
-
-
 
 
 
@@ -34,11 +29,8 @@ body{
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
-    background-color: var(--color1);
+    background-color: var(--body-background-color);
 }
-
-
-
 
 
 
@@ -47,18 +39,19 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: var(--color3);
     align-items: flex-end;
-    border-bottom: 5px solid var(--color4);
+    border-bottom: 5px solid var(--header-footer-border-color);
+    background-color: var(--header-and-footer-color);
 }
 
 .profile-pic{
     height: 100px;
     width: 100px;
     margin: 10px;
-    border: 10px double var(--color4);
-    border-radius: 20px;
     align-self: center;
+    border: 10px double var(--header-footer-border-color);
+    border-radius: 20px;
+
 }
 
 .website-heading{
@@ -76,45 +69,44 @@ header nav ul{
 }
 
 .site-jump{
-    text-decoration: none;
     margin: 10px;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .navbar ul li:hover{
-    background-color: var(--color2);
-    border-radius: 20px;
+    background-color: var(--hover-color);
 }
 
 
 
-
-
-
-/*Styles for the "About Me" Section and the contents within.*/
+/*Styles for all of the major sections of the website*/
 .major-section{
     display: flex;
     flex-direction: row;
-    margin: 50px 100px 50px 100px;
-    background-color: var(--color6);
+    margin: 50px 100px;
 }
 
 .section-header{
     white-space: nowrap;
     margin: 0%;
     padding: 10px;
-    background-color: var(--color5);
-    border-right: 5px solid var(--color4);
+    border-right: 5px solid var(--section-border-color);
 }
 
+
+
+/*Styles for the "About Me" Section and the contents within.*/
 .about-me-content{
-    margin: 30px;
-    padding: 10px;
-    background-color: var(--color2);
+    margin: 0;
+    padding: 30px;
+    border-bottom: 5px solid var(--section-border-color);
 }
-
-
-
-
 
 
 
@@ -125,12 +117,13 @@ header nav ul{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 5px solid var(--section-border-color);
 }
 
 .featured-project{
     display: flex;
-    
-    
     width: 100%;
     justify-content: space-evenly;
 
@@ -138,11 +131,11 @@ header nav ul{
 
 .featured-card{
     position: relative;
-    background-color: var(--color2);
     padding-top: 0;
     margin: 30px;
     width: 720px;
     height: 720px;
+    border-radius: 10px;
     overflow: hidden;
     justify-content: space-evenly;
 }
@@ -158,11 +151,11 @@ header nav ul{
 
 .card{
     position: relative;
-    background-color: var(--color2);
     padding-top: 0;
     margin: 30px;
     height: 360px;
     width: 360px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -170,7 +163,7 @@ header nav ul{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 10px solid var(--color8);
+    border: 10px solid var(--card-color);
 }
 
 .overlay{
@@ -180,11 +173,12 @@ header nav ul{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: var(--color9);
+    background-color: var(--overlay-color);
+    transition: background-color 0.3s ease;
 }
 
 .overlay:hover{
-    background-color:var(--color10);
+    background-color:var(--overlay-hover-color);
 }
 
 .project-title{
@@ -193,11 +187,10 @@ header nav ul{
     left: 0;
     margin: 0;
     padding: 20px;
-    background-color: var(--color8);
+    z-index: 2;
+    border-radius: 10px;
+    background-color: var(--card-color);
 }
-
-
-
 
 
 
@@ -207,30 +200,27 @@ header nav ul{
     flex-direction: row;
     width: auto;
     justify-content: space-evenly;
-    background-color: #eeff00;
     width: 100%;
     margin: 30px;
-    padding: 0;
+    margin: 0;
+    padding: 30px;
+    border-bottom: 5px solid var(--section-border-color);
 }
 
 .button {
-    margin: 0px 10px;
     display: inline-block;
+    margin: 0px 10px;
     padding: 10px 20px;
-    background-color: var(--color5);
-    color: var(--color1);
-    text-decoration: none;
     border-radius: 30px;
+    background-color: var(--header-and-footer-color);
+    color: var(--text-color);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
   }
 
   .button:hover{
-    background-color: var(--color3);
+    background-color: var(--hover-color);
   }
-
-
-
-
-
 
 
 
@@ -239,7 +229,8 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--color3);
+    background-color: var(--header-and-footer-color);
+    border-top: 5px solid var(--header-footer-border-color);
 }
 
 .end-tag{
@@ -252,71 +243,72 @@ footer{
 }
 
 .secret{
-    color: var(--color3);
-    background-color: var(--color3);
-    text-decoration: none;
     margin-bottom: 15px;
     padding: 5px;
+    text-decoration: none;
+    color: var(--header-and-footer-color);
+    transition: background-color 0.3s ease;
+
 }
 
 .secret:hover{
-    color:var(--color1);
-    border: 1px outset var(--color3);
+    border: 1px outset var(--hover-color);
     border-radius: 5px;
+    color:var(--text-color);
+    background-color: var(--hover-color);
+
 }
 
 
 
-
-
-
-/*Media Queries for different devices. Dimensions are mostly presets from chrome devtool, but a few are custom.*/
-
-@media (max-width: 1157px){
+/*Media Queries*/
+@media (max-width: 1176px){
     .major-section{
         flex-direction: column;
     }
+
     .section-header{
-        border-bottom: 5px solid var(--color4);
+        border-bottom: 5px solid var(--section-border-color);
         border-right: 0;
     }
+
     .contacts{
         margin-left: 0px;
     }
-    
 }
 
-@media (max-width: 869px){
-    ul{
-        padding: 0px;
-    }
-}
-
-@media (max-width: 852px){
+@media (max-width: 907px){
     header{
         flex-direction: column;
         align-items: center;
     }
+
     .website-heading{
         margin: auto;
     }
-    
+
+    ul{
+        padding: 0px;
+    }
+
     .major-section{
-        margin: 50px 30px 50px 30px;
+        margin: 50px 30px;
     } 
-    
+
     .contacts{
         flex-direction: column;
         width: auto;
         align-items: center;
         margin: 0;
-    }   
+        padding: 20px;
+    }  
+
     .button{
         margin:5px
     }
 }
 
-@media (max-width: 360px){
+@media (max-width: 366px){
     .website-heading{
         text-align: center;
     }
