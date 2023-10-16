@@ -42,9 +42,9 @@ Conducted Lighthouse test to assess performance, accessibility, best practices, 
 - .card placmenet is a little wonky when resizing the actual browser. No such issue occurs when viewed using responsive dimensions function via device toolbar. Therefore, exact width cannot be determined and issue cannot be remedied with media queries. With that said, the website functions normally with no issues when viewed on present dimensions set up by the inspect tool or with responsive dimensions.
 
 ## Links
-[Access My Site Here]()
+[Access My Site Here](https://cycbrian.github.io/Brian-Cheung-Module-2-Weekly-Challenge-Professional-Portfolio/)
 
-[Access My GitHub Here]()
+[Access My GitHub Here](https://github.com/CYCBrian/Brian-Cheung-Module-2-Weekly-Challenge-Professional-Portfolio)
 
 ## Credits
 Xpert Learning Assistant
